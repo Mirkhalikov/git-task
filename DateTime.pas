@@ -40,10 +40,10 @@ else println(366);
       sum += 366
   else sum += 365;
 end;
-  print(sum);
-  {
+  println(sum);
+  
   var hours := ReadInteger('Введите кол-во часов');
-  print($'Кол-во секунд = {hours * 60 *60');
+  println($'Кол-во секунд = {hours * 60 *60');
   
   {
   var yap := ReadInteger('Введите год');
