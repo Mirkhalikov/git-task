@@ -19,15 +19,16 @@ begin
     print('К новому году ближе 1 дата')
   else  
   print('К новому году ближе 1 дата')
-}
+
+
   
   
-  {
+
   var yearI := ReadInteger('Введите год: ');
   if ((yearI mod 4 = 0) and ( yearI mod 100 <> 0)) or (yearI mod 400 = 0) then 
   print(365)
 else print(366);
-  }
+  
   
   {
   print('Введите 2 года');
