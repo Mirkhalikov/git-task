@@ -2,16 +2,11 @@
 
 }
 begin
-  {
+  
   var year := ReadInteger('Введите год: ');
   print(((year mod 4 = 0) and ( year mod 100 <> 0)) or (year mod 400 = 0));
   
-  
-  {
-  var min := ReadInteger('Введите кол-во секунд');
-  print($'Кол-во секунд  = min * 60'); }
-  
-  {
+ 
   var (d1, m1, d2, m2) := ReadInteger4;
   if m2 > m1 then 
   print('К новому году ближе 2 дата')
